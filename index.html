@@ -3,7 +3,7 @@
 <head>
     <script type="javascript">
         function loadDOC(){
-            const xhttp = XMLHttpRequest();
+            const xhttp = new XMLHttpRequest();
             xhttp.onload = function(){
                 document.getElementById("demo").innerHTML = this.responseText
             }
